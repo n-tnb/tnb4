@@ -59,7 +59,7 @@ async def main():
     # await page.mouse.click(x, y);
 
         count = 0
-        while count < 2:
+        while count < 5:
             circle = page.locator("circle").nth(0)
             bounding_box = await circle.bounding_box()
             if bounding_box is None:
