@@ -1,5 +1,0 @@
-playwright
-camoufox
-camoufox[geoip]
-browserforge
-hcaptcha_challenger
