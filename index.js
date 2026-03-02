@@ -4,7 +4,7 @@ const MINUTOS = 10;
 const URL = process.env.URL;
 const PROXY = JSON.parse(process.env.PROXY) || false;
 const ADDRESS = process.env.ADDRESS.split("\n");
-const INDEX = 0
+const INDEX = 3
 
 const run = async () => {
   const { page, browser } = await connect({
@@ -59,6 +59,7 @@ const run = async () => {
 };
 
 run();
+
 
 
 
